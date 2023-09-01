@@ -1,0 +1,68 @@
+/* styles.css */
+.App {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.Todo {
+  background-color: wheat;
+  text-align: center;
+  width: 50%;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: auto;
+}
+.header {
+  background-color:pink;
+  text-align: center;
+  width: 50%;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin:auto;
+}
+
+ol {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+}
+
+button {
+  width: 70px;
+  height: 35px;
+  background-color: blueviolet;
+  border: none;
+  font-size: 15px;
+  font-weight: 800;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.ip {
+  border: none;
+  width: 340px;
+  height: 35px;
+  border-radius: 9px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+li {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+
+li:before {
+  margin-right: 5px;
+}
