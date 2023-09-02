@@ -11,6 +11,7 @@ function App() {
   }
 
   function submit() {
+    if (!curr) return
     setupdate([...update, curr]);
     console.log("list item ", { item: update, key: Date.now });
     setcurr("");
